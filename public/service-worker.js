@@ -12,12 +12,12 @@ const FILES_TO_CACHE = [
 ];
 
   // install
-  self.addEventListener("install", function(evt) {
+  self.addEventListener("install", evt => {
     evt.waitUntil(
-      caches.open(CACHE_NAME).then(cache => {
-        console.log("Your files were pre-cached successfully!");
-        return cache.addAll(FILES_TO_CACHE);
-      })
+        caches.open(DATA_CACHE_NAME).then(cache => {
+            console.log("Transaction pre-cached successfully!");
+            return cache.add("/api/transaction")
+        })
     );
 
     self.skipWaiting();
