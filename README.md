@@ -8,7 +8,7 @@
 
 This project was a great chance to force myself to really understand indexing and cacheing of data with MongoDB. While most of the project is built out, it was nice to be able to get practice in storing data whilst offline then pushing it when online availability returns.
 
-![Demo photo](https://i.gyazo.com/493e6c91ed6d0c769ef5ddbff8841e54.png)
+![Demo photo](https://i.gyazo.com/7983a03595d712bc543f4a37f5d46cfd.png)
 
 
 ## Table of Contents
