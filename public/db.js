@@ -26,7 +26,7 @@ request.onerror = function(event) {
     console.log(event.target.errorCode);
 };
 
-//this function fires off if network is offline
+//this function fires off if network is offline, called from index.js
 function saveRecord(record) {
 
     // runs a transaction function creating a new_transaction with readwrite permissions, saves to transaction const
