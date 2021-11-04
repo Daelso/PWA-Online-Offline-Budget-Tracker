@@ -1,70 +1,51 @@
-# Unit 19 PWA Homework: Online/Offline Budget Trackers
+# Title: 19 PWA with Offline Functionality!
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+![badge](https://img.shields.io/badge/license-MIT-darkred) [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com) 
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+## Description:
 
-- - -
+This project was a great chance to force myself to really understand indexing and cacheing of data with MongoDB. While most of the project is built out, it was nice to be able to get practice in storing data whilst offline then pushing it when online availability returns.
 
-## Commit Early and Often
+![Demo photo](https://i.gyazo.com/493e6c91ed6d0c769ef5ddbff8841e54.png)
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Questions](#questions)
+- [Deployment](#deployment)
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+## Installation Instructions:
 
-* Follow these guidelines for committing:
+This app requires a number of dependencies which can be installed via running ```npm i``` in the terminal. It will work locally without anything else. To deploy it, you will need to attach your mongoDB through Atlas and Heroku, though the server.js is already staged for that.
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+I recommended running the program locally via ```npm run live``` to create a nodemon session.
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+## Usage:
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
+To create a budget tracker able to be updated while offline and retain those entries when brought back online.
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+## Contributing:
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+Want to contriubte? Here's the guidelines: None at the moment!
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
 
-## Submission on BCS
+## License:
 
-* You are required to submit the following:
+This application is covered under the MIT license. 
 
-  * the URL to the deployed application
+## My Github Account:
 
-  * the URL to the Github repository
+  Click here: https://github.com/Daelso
 
-- - -
+## Questions:
 
-## Hint
-
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
-
-* Use [Google](https://www.google.com) or another search engine to research this topic.
+  Feel free to email me at: cmurtau@g.clemson.edu
+  
+## Deployment: 
+https://offline-budget-tracker-penn.herokuapp.com/
